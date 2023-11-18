@@ -48,7 +48,7 @@ Este código simplesmente imprime "Olá Mundo!" quando executado.
 - Navegue até o diretório onde seu arquivo main.go (normalmente criado na raiz do projeto, ou também em pastas como cmd).
 - Execute o comando go run main.go. Isso compilará e executará o programa.
 
-### Build
+## Build
 
 Para compilar o projeto em Go, você pode executar o seguinte comando:
 
