@@ -95,3 +95,7 @@
 
 - Sarama: Um cliente Kafka para Go.
 - OpenTelemetry: Uma implementação em Go para rastreamento distribuído e observabilidade.
+
+# Outras bibliotecas
+
+Não apenas estas, mas também várias outras podem ser encontradas no site oficial [Golang](https://pkg.go.dev)
