@@ -31,8 +31,8 @@ Inteligência artificial refere-se à simulação de processos cognitivos humano
 
 ### Ferramentas IA “Orquestradoras”​
 
-- ChatGPT é um chatbot online de inteligência artificial desenvolvido pela OpenAI​
-- Bard é um chatbot desenvolvido pelo Google, baseado na família de modelos de linguagem LaMDA.
+- [ChatGPT](https://chat.openai.com) é um chatbot online de inteligência artificial desenvolvido pela OpenAI​
+- [Bard](https://bard.google.com) é um chatbot desenvolvido pelo Google, baseado na família de modelos de linguagem LaMDA.
 
 ### Integrada​ x “Orquestradoras”​
 
