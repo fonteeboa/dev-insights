@@ -23,7 +23,7 @@ Se a instalação foi bem-sucedida, você verá a versão do Go instalada.
 
 ## Iniciando um Projeto em Go
 
-A estrutura básica de um projeto em Go envolve pacotes (packages). Cada pacote é armazenado em um diretório com o mesmo nome do pacote. Veja como iniciar um projeto simples:
+A estrutura básica de um projeto em Go envolve pacotes (packages). Cada pacote é armazenado em um diretório com o mesmo nome do pacote. Veja como iniciar um projeto simples
 
 ### Estrutura Básica do Projeto:
 
@@ -48,4 +48,20 @@ Este código simplesmente imprime "Olá Mundo!" quando executado.
 - Navegue até o diretório onde seu arquivo main.go (normalmente criado na raiz do projeto, ou também em pastas como cmd).
 - Execute o comando go run main.go. Isso compilará e executará o programa.
 
-[Documentação](https://go.dev/doc/)
+### Build
+
+Para compilar o projeto em Go, você pode executar o seguinte comando:
+
+```
+go build
+```
+
+Este comando identifica automaticamente o sistema operacional e a arquitetura atual. Se desejar especificar o sistema operacional e a arquitetura durante a compilação, você pode usar o comando a seguir:
+
+```
+GOOS=linux GOARCH=amd64 go build main.go
+```
+Neste exemplo, estou direcionando a compilação para o sistema operacional Linux com arquitetura x64, mesmo estando realizando a compilação em uma máquina Windows.
+
+### Documentação Geral Golang
+https://go.dev/doc/
