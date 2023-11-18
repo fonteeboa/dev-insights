@@ -30,6 +30,12 @@ A estrutura básica de um projeto em Go envolve pacotes (packages). Cada pacote 
 Crie um diretório para o seu projeto, por exemplo, meu-projeto.
 Dentro desse diretório, crie um arquivo chamado main.go. Esse arquivo é o ponto de entrada padrão para programas em Go.
 
+Após isso execute o comando:
+```
+go mod init <meu-projeto>
+```
+Esse comando irá criar o arquivo go.mod que gerenciará as dependências do seu projeto, registrando todos os pacotes importados.
+
 ### Exemplo de Código em Go (Nosso famoso "Olá Mundo"):
 
 ```
@@ -41,7 +47,6 @@ func main() {
     fmt.Println("Olá Mundo!")
 }
 ```
-
 Este código simplesmente imprime "Olá Mundo!" quando executado.
 
 - Abra o terminal ou prompt de comando.
