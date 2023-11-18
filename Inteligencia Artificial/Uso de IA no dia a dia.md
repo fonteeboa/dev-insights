@@ -25,9 +25,9 @@ Inteligência artificial refere-se à simulação de processos cognitivos humano
 
 ### Ferramentas IA Integrada​
 
-- Code Whisper:​ Ferramenta que utiliza IA para auxiliar desenvolvedores a entender e corrigir código automaticamente, proporcionando soluções rápidas e eficientes​
-- GitHub Copilot:​ Ferramenta que usa IA para ajudar na escrita de código, oferecendo sugestões em tempo real, aumentando a produtividade e melhorando a precisão durante o desenvolvimento​
-- Codeium:​ Ferramenta que integra IA no processo de desenvolvimento, melhorando a eficiência e qualidade do código ao fornecer análises preditivas, sugestões contextuais e correções automáticas para os desenvolvedores.​
+- [Codewhisperer](https://aws.amazon.com/pt/codewhisperer):​ Ferramenta que utiliza IA para auxiliar desenvolvedores a entender e corrigir código automaticamente, proporcionando soluções rápidas e eficientes​
+- [GitHub Copilot](https://github.com/features/copilot):​ Ferramenta que usa IA para ajudar na escrita de código, oferecendo sugestões em tempo real, aumentando a produtividade e melhorando a precisão durante o desenvolvimento​
+- [Codeium](https://codeium.com):​ Ferramenta que integra IA no processo de desenvolvimento, melhorando a eficiência e qualidade do código ao fornecer análises preditivas, sugestões contextuais e correções automáticas para os desenvolvedores.​
 
 ### Ferramentas IA “Orquestradoras”​
 
