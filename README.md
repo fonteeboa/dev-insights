@@ -13,5 +13,3 @@ O repositório está organizado em seções ou diretórios temáticos. Cada dire
 ## Como Utilizar
 
 Para utilizar as dicas e insights disponíveis neste repositório, você pode navegar através dos diretórios ou utilizar ferramentas de busca para encontrar informações sobre um tópico específico.
-
----
