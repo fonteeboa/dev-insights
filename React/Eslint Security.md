@@ -9,10 +9,6 @@ O eslint-plugin-security-node é um plugin específico para aplicações Node.js
 ## Responsáveis pela Manutenção
 Ambos os pacotes são mantidos pela comunidade de desenvolvedores de software e têm repositórios oficiais no GitHub. Os mantenedores dos projetos são responsáveis por sua manutenção, incluindo adição de novas funcionalidades, correção de bugs e atualizações de segurança.
 
-## Repositórios Oficiais:
-
-eslint-plugin-security GitHub
-
 ## Documentação Oficial:
 
 [Documentação oficial do eslint-plugin-security](https://www.npmjs.com/package/eslint-plugin-security)
