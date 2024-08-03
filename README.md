@@ -1,10 +1,10 @@
 # DevInsights
 
-Bem-vindo ao **DevInsights**! Este repositório foi criado para fornecer dicas valiosas, insights e orientações úteis para desenvolvedores de software.
+Welcome to **DevInsights**! This repository was created to provide valuable tips, insights, and useful guidance for software developers. For posts in English, please visit: [https://dev.to/fonteeboa](https://dev.to/fonteeboa).
 
 ## Sobre
 
-O **DevInsights** é um espaço dedicado a compartilhar conhecimentos, melhores práticas e conselhos essenciais para impulsionar sua carreira como profissional de tecnologia. Aqui, você encontrará uma coleção de dicas baseadas em experiências reais, cobrindo uma ampla gama de tópicos relacionados ao desenvolvimento de software.
+O **DevInsights** tem como objetivo trazer meus posts do dev.to em PT_BR para dar acessibilidade aos desenvolvedores brasileiros que não se sentem totalmente confortáveis com o inglês, mas anseiam por conhecimento. Aqui, você encontrará uma coleção de dicas baseadas em experiências reais, cobrindo uma ampla gama de tópicos relacionados ao desenvolvimento de software.
 
 ## Conteúdo
 
@@ -20,17 +20,6 @@ Para aproveitar ao máximo as dicas e insights disponíveis neste repositório:
 
 1. **Navegação**: Explore os diretórios temáticos para encontrar tópicos de interesse.
 2. **Busca**: Utilize a ferramenta de busca do GitHub para encontrar informações específicas rapidamente.
-3. **Contribuição**: Sinta-se à vontade para contribuir com suas próprias dicas e insights, submetendo um pull request.
-
-## Contribuindo
-
-Adoraríamos sua contribuição! Para contribuir:
-
-1. **Fork** o repositório.
-2. Crie uma **branch** com sua contribuição: `git checkout -b minha-contribuicao`.
-3. **Commit** suas mudanças: `git commit -m 'Adiciona nova dica sobre [assunto]'`.
-4. **Push** para a branch: `git push origin minha-contribuicao`.
-5. Abra um **pull request**.
 
 ## Licença
 
