@@ -64,38 +64,21 @@ Realizado teste de performance entre comandos `elseif` e `else if`.
 $iterations = 1000000; 
 
 // Primeiro teste com else if
-$start1 = microtime(true);
+$start = microtime(true);
 for ($i = 0; $i < $iterations; $i++) {
-    $teste1 = null;
+    $teste = null;
     if ('teste' == 't') {
-        $teste1 = 0;
+        $teste = 0;
     } else if ('t' == 't') {
-        $teste1 = 1;
+        $teste = 1;
     }
 }
-$end1 = microtime(true);
-$executionTime1 = ($end1 - $start1);
+$end = microtime(true);
+$executionTime = ($end - $start);
 
 // Exibindo informações sobre o primeiro teste
-echo "Primeiro teste (else if):\n";
-echo "Tempo de execução: " . number_format($executionTime1, 10) . " segundos\n\n";
-
-// Segundo teste com elseif
-$start2 = microtime(true);
-for ($i = 0; $i < $iterations; $i++) {
-    $teste2 = null;
-    if ('teste' == 't') {
-        $teste2 = 0;
-    } elseif ('t' == 't') {
-        $teste2 = 1;
-    }
-}
-$end2 = microtime(true);
-$executionTime2 = ($end2 - $start2);
-
-// Exibindo informações sobre o segundo teste
-echo "Segundo teste (elseif):\n";
-echo "Tempo de execução: " . number_format($executionTime2, 10) . " segundos\n";
+echo "Teste (else if):\n";
+echo "Tempo de execução: " . number_format($executionTime, 10) . " segundos\n\n";
 ?>
 ```
 
