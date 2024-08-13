@@ -104,6 +104,8 @@ Mantenha suas dependências sempre atualizadas e use ferramentas como Snyk ou np
 
 ### 6.1 Breakpoint Toolbar
 
+![breakpoint](./images/breakpoint.png)
+
 #### 6.1.1 O que são Breakpoints?
 
 Breakpoints são pontos no código onde a execução é interrompida, permitindo que você inspecione o estado atual da aplicação.
@@ -129,6 +131,8 @@ Atalhos para a Breakpoint Toolbar:
 
 ### 6.2 Sources Tab
 
+![sources](./images/sources.png)
+
 #### 6.2.1 Navegando pelos Arquivos
 
 Na aba Sources, explore todos os arquivos carregados pela página.
@@ -148,6 +152,8 @@ Para adicionar breakpoints condicionais:
 
 ### 6.3 Network Tab
 
+![network](./images/network.png)
+
 #### 6.3.1 Monitorando Requisições HTTP
 
 Na aba Network, monitore todas as requisições que a página faz.
@@ -165,6 +171,8 @@ Simule diferentes condições de rede:
 
 ### 6.4 Application Tab
 
+![Application](./images/app.png)
+
 #### 6.4.1 Inspecionando Storage
 
 Na aba Application, inspecione e manipule o armazenamento local, cookies, etc.
@@ -179,6 +187,8 @@ Monitore service workers ativos na aba Application. Não há atalhos dedicados, 
 
 ### 6.5 Performance Tab
 
+![performance](./images/performance.png)
+
 #### 6.5.1 Gravando Sessões de Performance
 
 Na aba Performance, grave o desempenho da página.
@@ -190,6 +200,8 @@ Atalhos principais:
 
 ### 6.6 Security Tab
 
+![Security](./images/sec.png)
+
 #### 6.6.1 Verificando Segurança
 
 Na aba Security, inspecione a segurança da página.
@@ -199,6 +211,8 @@ Atalhos principais:
 - **Nenhum atalho padrão**: Use F12 para abrir o DevTools e navegue até a aba Security.
 
 ### 6.7 Lighthouse
+
+![lighthouse](./images/lighthouse.png)
 
 #### 6.7.1 Executando Auditorias
 
