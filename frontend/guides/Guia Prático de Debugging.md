@@ -2,6 +2,10 @@
 
 Bem-vindo ao nosso post sobre "Guia Prático de Debugging: A Arte de Resolver Problemas no Frontend"! Neste artigo, exploraremos os aspectos essenciais do desenvolvimento frontend, com foco em técnicas de debugging, melhores práticas de codificação e garantia de segurança da aplicação. Forneceremos um tutorial detalhado sobre o uso do Google Chrome DevTools—uma ferramenta indispensável para depuração, análise de performance e otimização de aplicações web. Este guia foi elaborado para ser um recurso valioso tanto para iniciantes quanto para desenvolvedores experientes, ajudando você a identificar e resolver problemas de forma eficiente em seus projetos frontend. Ao dominar essas técnicas, você aprimorará sua capacidade de entregar código de alta qualidade, seguro e sustentável.
 
+## 1. Por que é crucial dominar a depuração, especialmente em código legado
+
+A depuração eficaz de código legado é fundamental para manter a integridade do sistema e prevenir regressões. Ela permite que os desenvolvedores rastreiem e resolvam problemas complexos embutidos na base de código existente, garantindo que novas implementações não introduzam conflitos ou erros. Esse processo não apenas preserva a funcionalidade, mas também melhora a confiabilidade e o desempenho do código ao longo do tempo.
+
 ## 2. Identificação de Bugs
 
 ### 2.1 Compreendendo as Mensagens de Erro
