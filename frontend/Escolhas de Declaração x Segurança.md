@@ -1,4 +1,4 @@
-# Var, Let, Const: Como Escolhas de Declaração Afetam a Segurança do Seu Código
+# 🔐🛡️ Var, Let, Const: Como Escolhas de Declaração Afetam a Segurança do Seu Código
 
 Sabemos que o uso de `var` não é recomendado para declarar novas variáveis em nosso código JavaScript, mas como isso pode afetar a segurança de nossas aplicações? Este documento explora a relação entre o uso de `var`, `let` e `const` e a segurança do código, destacando os riscos e como mitigá-los.
 
