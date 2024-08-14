@@ -62,9 +62,9 @@ O uso apropriado de let e const em projetos React com TypeScript é essencial pa
 - const promove a imutabilidade e deve ser preferido sempre que possível.
 - let é utilizado para variáveis mutáveis de forma controlada, evitando o uso excessivo.
 - var é desencorajado devido a problemas de escopo e hoisting, devendo ser substituído por let ou const.
+- Adicionalmente, o uso de Object.freeze() pode garantir a imutabilidade completa de objetos e arrays, aumentando ainda mais a segurança e a previsibilidade do seu código.
 
 ## Referências
 
 - Documentação oficial do [TypeScript](https://www.typescriptlang.org/docs/)
 - Documentação oficial do [React](https://reactjs.org/docs/getting-started.html)
-- Este documento foi criado para orientar o uso apropriado de let, const e var em projetos React com TypeScript, visando um código mais legível, robusto e eficiente.
