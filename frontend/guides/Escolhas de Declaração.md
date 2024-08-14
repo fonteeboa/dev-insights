@@ -65,6 +65,6 @@ O uso apropriado de let e const em projetos React com TypeScript é essencial pa
 
 ## Referências
 
-- Documentação oficial do TypeScript: https://www.typescriptlang.org/docs/
-- Documentação oficial do React: https://reactjs.org/docs/getting-started.html
+- Documentação oficial do [TypeScript](https://www.typescriptlang.org/docs/)
+- Documentação oficial do [React](https://reactjs.org/docs/getting-started.html)
 - Este documento foi criado para orientar o uso apropriado de let, const e var em projetos React com TypeScript, visando um código mais legível, robusto e eficiente.
