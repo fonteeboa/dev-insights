@@ -1,4 +1,4 @@
-#  Keep It Simple, Stupid (KISS)
+# Keep It Simple, Stupid (KISS)
 
 ## O que é o principio KISS?
 
@@ -17,6 +17,7 @@ Menos é Mais: Evitar adicionar elementos desnecessários que possam sobrecarreg
 ## Aplicações do KISS
 
 ### Design de Software
+
 Interface do Usuário (UI): Criar interfaces intuitivas e fáceis de usar, evitando elementos confusos ou excessivamente complicados.
 
 Arquitetura de Software: Desenvolver sistemas com estruturas simples e diretas, evitando excesso de camadas ou complexidade desnecessária.
@@ -34,6 +35,7 @@ Clareza: Escrever de forma clara e direta, evitando jargões ou linguagem técni
 Apresentações: Criar apresentações concisas, com foco nos pontos-chave, e evitar sobrecarregar com informações excessivas.
 
 ## Benefícios do KISS
+
 Facilidade de Manutenção: Sistemas simples são mais fáceis de manter e atualizar.
 
 Economia de Tempo e Recursos: Reduzir complexidade pode economizar tempo e recursos no desenvolvimento e na implementação.
@@ -41,6 +43,7 @@ Economia de Tempo e Recursos: Reduzir complexidade pode economizar tempo e recur
 Melhor Experiência do Usuário: Produtos simples e fáceis de usar tendem a ser mais apreciados pelos usuários.
 
 ## Exemplos de Implementação do KISS
+
 Google Search: A simplicidade da interface do Google tornou-se um exemplo clássico de aplicação do KISS.
 
 Trello: O Trello é um sistema de gerenciamento de projetos conhecido pela sua simplicidade e eficácia na organização.
