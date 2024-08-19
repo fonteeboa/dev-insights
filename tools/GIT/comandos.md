@@ -1,17 +1,17 @@
-# Git
+# 🪢 Git
 
 O Git é essencial para o desenvolvimento de software, permitindo o controle de versões, colaboração eficaz entre desenvolvedores e o gerenciamento seguro de mudanças no código. Facilita o rastreamento de alterações, a reversão a versões anteriores e a integração de trabalho de diferentes membros da equipe, tornando o processo de desenvolvimento mais organizado e eficiente.
 
-## Comandos
+## 🛠️ Comandos
 
-## Configuração e Setup
+## ⚙️ Configuração e Setup
 
 ### 🔹 git config
 
 Configura o nome do usuário, email, editor, e muito mais.
 
 ```bash
-Exemplo: git config --global user.name "Seu Nome" configura o nome do usuário para todos os repositórios.
+Exemplo: `git config --global user.name "Seu Nome"` configura o nome do usuário para todos os repositórios.
 ```
 
 ### 🔹 git init
@@ -19,18 +19,17 @@ Exemplo: git config --global user.name "Seu Nome" configura o nome do usuário p
 Inicializa um novo repositório Git local.
 
 ```bash
-Exemplo: git init cria um novo repositório Git no diretório atual.
+Exemplo: `git init` cria um novo repositório Git no diretório atual.
 ```
 
-## Stage & Snapshot
+## 🗃️ Stage & Snapshot
 
 ### 🔹 git status
 
 Mostra o status dos arquivos (modificados, não rastreados, etc.).
 
 ```bash
-Exemplo: git status para ver o estado atual dos arquivos.
-
+Exemplo: `git status` para ver o estado atual dos arquivos.
 ```
 
 ### 🔹 git add
@@ -38,8 +37,7 @@ Exemplo: git status para ver o estado atual dos arquivos.
 Adiciona arquivos ao stage para serem commitados.
 
 ```bash
-Exemplo: git add . adiciona todos os arquivos modificados ao stage.
-
+Exemplo: `git add .` adiciona todos os arquivos modificados ao stage.
 ```
 
 ### 🔹 git commit
@@ -47,19 +45,17 @@ Exemplo: git add . adiciona todos os arquivos modificados ao stage.
 Commita os arquivos do stage e salva um snapshot do projeto.
 
 ```bash
-Exemplo: git commit -m "mensagem" commita com uma mensagem.
-
+Exemplo: `git commit -m "mensagem"` commita com uma mensagem.
 ```
 
-## Branch & Merge
+## 🌳 Branch & Merge
 
 ### 🔹 git branch
 
 Lista, cria ou deleta branches.
 
 ```bash
-Exemplo: git branch nova-branch cria uma nova branch.
-
+Exemplo: `git branch nova-branch` cria uma nova branch.
 ```
 
 ### 🔹 git checkout
@@ -67,8 +63,7 @@ Exemplo: git branch nova-branch cria uma nova branch.
 Muda para outra branch ou restaura arquivos.
 
 ```bash
-Exemplo: git checkout outra-branch muda para a branch especificada.
-
+Exemplo: `git checkout outra-branch` muda para a branch especificada.
 ```
 
 ### 🔹 git merge
@@ -76,19 +71,17 @@ Exemplo: git checkout outra-branch muda para a branch especificada.
 Junta históricos de duas branches.
 
 ```bash
-Exemplo: git merge outra-branch mescla outra-branch na branch atual.
-
+Exemplo: `git merge outra-branch` mescla outra-branch na branch atual.
 ```
 
-## Inspeção & Comparação
+## 🔍 Inspeção & Comparação
 
 ### 🔹 git log
 
 Mostra o histórico de commits.
 
 ```bash
-Exemplo: git log para ver o histórico de commits.
-
+Exemplo: `git log` para ver o histórico de commits.
 ```
 
 ### 🔹 git diff
@@ -96,19 +89,17 @@ Exemplo: git log para ver o histórico de commits.
 Mostra diferenças entre commits, branches, etc.
 
 ```bash
-Exemplo: git diff mostra diferenças não stageadas.
-
+Exemplo: `git diff` mostra diferenças não stageadas.
 ```
 
-## Compartilhar & Atualizar
+## 📤 Compartilhar & Atualizar
 
 ### 🔹 git remote
 
 Gerencia conjunto de repositórios rastreados.
 
 ```bash
-Exemplo: git remote add origin URL adiciona um novo remote.
-
+Exemplo: `git remote add origin URL` adiciona um novo remote.
 ```
 
 ### 🔹 git fetch
@@ -116,8 +107,7 @@ Exemplo: git remote add origin URL adiciona um novo remote.
 Baixa objetos e refs de outro repositório.
 
 ```bash
-Exemplo: git fetch origin atualiza a informação do remote origin.
-
+Exemplo: `git fetch origin` atualiza a informação do remote origin.
 ```
 
 ### 🔹 git push
@@ -125,8 +115,7 @@ Exemplo: git fetch origin atualiza a informação do remote origin.
 Atualiza repositório remoto com commits locais.
 
 ```bash
-Exemplo: git push origin main envia commits locais para a branch main no remote origin.
-
+Exemplo: `git push origin main` envia commits locais para a branch main no remote origin.
 ```
 
 ### 🔹 git pull
@@ -134,18 +123,17 @@ Exemplo: git push origin main envia commits locais para a branch main no remote 
 Atualiza repositório local com a última versão do remote.
 
 ```bash
-Exemplo: git pull origin main atualiza o local com o remote.
+Exemplo: `git pull origin main` atualiza o local com o remote.
 ```
 
-## Desfazer
+## 🚫 Desfazer
 
 ### 🔹 git revert
 
 Desfaz mudanças de um commit específico.
 
 ```bash
-Exemplo: git revert <commit-hash> reverte as mudanças do commit especificado.
-
+Exemplo: `git revert <commit-hash>` reverte as mudanças do commit especificado.
 ```
 
 ### 🔹 git reset
@@ -153,8 +141,7 @@ Exemplo: git revert <commit-hash> reverte as mudanças do commit especificado.
 Reseta o HEAD para um estado anterior.
 
 ```bash
-Exemplo: git reset --hard HEAD~1 desfaz o último commit e as mudanças.
-
+Exemplo: `git reset --hard HEAD~1` desfaz o último commit e as mudanças.
 ```
 
 ### 🔹 git rm
@@ -162,7 +149,7 @@ Exemplo: git reset --hard HEAD~1 desfaz o último commit e as mudanças.
 Remove arquivos do index (stage) e do diretório de trabalho.
 
 ```bash
-Exemplo: git rm arquivo.txt remove o arquivo do diretório de trabalho e do stage.
+Exemplo: `git rm arquivo.txt` remove o arquivo do diretório de trabalho e do stage.
 ```
 
 ### 🔹 git restore
@@ -170,7 +157,7 @@ Exemplo: git rm arquivo.txt remove o arquivo do diretório de trabalho e do stag
 Restaura arquivos do stage ou do histórico de commits.
 
 ```bash
-Exemplo: git restore arquivo.txt desfaz modificações no arquivo.
+Exemplo: `git restore arquivo.txt` desfaz modificações no arquivo.
 ```
 
 ### 🔹 git clean
@@ -178,17 +165,17 @@ Exemplo: git restore arquivo.txt desfaz modificações no arquivo.
 Remove arquivos não rastreados pelo Git.
 
 ```bash
-Exemplo: git clean -fd remove diretórios e arquivos não rastreados.
+Exemplo: `git clean -fd` remove diretórios e arquivos não rastreados.
 ```
 
-## Trabalhando com Remotes
+## 🌐 Trabalhando com Remotes
 
 ### 🔹 git clone
 
 Copia um repositório Git existente.
 
 ```bash
-Exemplo: git clone <url> clona o repositório para o local.
+Exemplo: `git clone <url>` clona o repositório para o local.
 ```
 
 ### 🔹 git push (revisão)
@@ -196,8 +183,7 @@ Exemplo: git clone <url> clona o repositório para o local.
 Envia mudanças para o repositório remoto.
 
 ```bash
-Exemplo: git push origin main envia mudanças locais para a branch main no remote.
-
+Exemplo: `git push origin main` envia mudanças locais para a branch main no remote.
 ```
 
 ### 🔹 git pull (revisão)
@@ -205,18 +191,17 @@ Exemplo: git push origin main envia mudanças locais para a branch main no remot
 Atualiza seu repositório local com a versão do repositório remoto.
 
 ```bash
-Exemplo: git pull origin main puxa as atualizações de main do origin para o local.
+Exemplo: `git pull origin main` puxa as atualizações de main do origin para o local.
 ```
 
-## Gerenciamento Avançado
+## 🚀 Gerenciamento Avançado
 
 ### 🔹 git rebase
 
 Reaplica commits em cima de outra base.
 
 ```bash
-Exemplo: git rebase main reaplica os commits da branch atual em cima da main.
-
+Exemplo: `git rebase main` reaplica os commits da branch atual em cima da main.
 ```
 
 ### 🔹 git blame
@@ -224,7 +209,7 @@ Exemplo: git rebase main reaplica os commits da branch atual em cima da main.
 Mostra quem modificou cada linha de um arquivo.
 
 ```bash
-Exemplo: git blame arquivo.txt mostra a autoria linha por linha.
+Exemplo: `git blame arquivo.txt` mostra a autoria linha por linha.
 ```
 
 ### 🔹 git show
@@ -232,7 +217,7 @@ Exemplo: git blame arquivo.txt mostra a autoria linha por linha.
 Mostra informações sobre objetos no Git.
 
 ```bash
-Exemplo: git show <commit-hash> mostra informações sobre o commit.
+Exemplo: `git show <commit-hash>` mostra informações sobre o commit.
 ```
 
 ### 🔹 git log --graph
@@ -240,7 +225,7 @@ Exemplo: git show <commit-hash> mostra informações sobre o commit.
 Exibe o histórico de commits em forma de um gráfico ASCII.
 
 ```bash
-Exemplo: git log --graph mostra a estrutura de branches e merges.
+Exemplo: `git log --graph` mostra a estrutura de branches e merges.
 ```
 
 ### 🔹 git stash
@@ -248,8 +233,7 @@ Exemplo: git log --graph mostra a estrutura de branches e merges.
 Salva mudanças locais temporariamente em uma área limpa.
 
 ```bash
-Exemplo: git stash push -m "mensagem" salva o trabalho atual com uma mensagem.
-
+Exemplo: `git stash push -m "mensagem"` salva o trabalho atual com uma mensagem.
 ```
 
 ### 🔹 git stash pop
@@ -257,8 +241,7 @@ Exemplo: git stash push -m "mensagem" salva o trabalho atual com uma mensagem.
 Aplica mudanças salvas com git stash.
 
 ```bash
-Exemplo: git stash pop aplica a última mudança stashed.
-
+Exemplo: `git stash pop` aplica a última mudança stashed.
 ```
 
 ### 🔹 git cherry-pick
@@ -266,85 +249,77 @@ Exemplo: git stash pop aplica a última mudança stashed.
 Aplica o commit de outra branch na branch atual.
 
 ```bash
-Exemplo: git cherry-pick <commit-hash> aplica o commit especificado.
-
+Exemplo: `git cherry-pick <commit-hash>` aplica o commit especificado.
 ```
 
-## Tags
+## 🏷️ Tags
 
 ### 🔹 git tag
 
 Lista, cria, ou deleta tags.
 
 ```bash
-Exemplo: git tag v1.0.0 cria uma tag para marcar uma versão.
-
+Exemplo: `git tag v1.0.0` cria uma tag para marcar uma versão.
 ```
 
-## Git Hooks
+## 🧩 Git Hooks
 
 ### 🔹 git hook
 
 Ganchos de scripts que são disparados por eventos importantes.
 
 ```bash
-Exemplo: Personalizar .git/hooks/pre-commit para rodar testes antes de cada commit.
-
+Exemplo: Personalizar `.git/hooks/pre-commit` para rodar testes antes de cada commit.
 ```
 
-## Reflog
+## 📝 Reflog
 
 ### 🔹 git reflog
 
 Mostra um log de mudanças na referência do HEAD.
 
 ```bash
-Exemplo: git reflog ajuda a encontrar commits perdidos.
-
+Exemplo: `git reflog` ajuda a encontrar commits perdidos.
 ```
 
-## Submódulos
+## 🔗 Submódulos
 
 ### 🔹 git submodule
 
 Gerencia outro repositório dentro de um repositório como um submódulo.
 
 ```bash
-Exemplo: git submodule add URL adiciona um novo submódulo.
-
+Exemplo: `git submodule add URL` adiciona um novo submódulo.
 ```
 
-## Ferramentas de Debugging
+## 🛠️ Ferramentas de Debugging
 
 ### 🔹 git bisect
 
 Usa busca binária para encontrar o commit que introduziu um bug.
 
 ```bash
-Exemplo: git bisect start para começar a bisecção.
-
+Exemplo: `git bisect start` para começar a bisecção.
 ```
 
-## Ferramentas de Merge
+## 🔧 Ferramentas de Merge
 
 ### 🔹 git mergetool
 
 Abre uma ferramenta gráfica para resolver conflitos de merge.
 
 ```bash
-Exemplo: git mergetool após um conflito de merge.
-
+Exemplo: `git mergetool` após um conflito de merge.
 ```
 
-## Trabalhando com Remotos
+## 🌐 Trabalhando com Remotos
 
 ### 🔹 git remote show
 
 Mostra informações sobre o repositório remoto.
 
 ```bash
-Exemplo: git remote show origin mostra detalhes do remote origin.
-
+Exemplo: `git remote show origin` mostra detalhes do remote origin.
 ```
 
 ### 🔹 git remote prune
@@ -352,41 +327,37 @@ Exemplo: git remote show origin mostra detalhes do remote origin.
 Remove referências locais a branches remotos deletados.
 
 ```bash
-Exemplo: git remote prune origin limpa referências antigas.
-
+Exemplo: `git remote prune origin` limpa referências antigas.
 ```
 
-## Git Archive
+## 🗂️ Git Archive
 
 ### 🔹 git archive
 
 Cria um arquivo (como um .tar ou .zip) de árvores de commits.
 
 ```bash
-Exemplo: git archive --format zip --output /tmp/arquivo.zip HEAD cria um arquivo zip do estado atual.
-
+Exemplo: `git archive --format zip --output /tmp/arquivo.zip HEAD` cria um arquivo zip do estado atual.
 ```
 
-## Git Worktree
+## 🌳 Git Worktree
 
 ### 🔹 git worktree
 
 Gerencia múltiplas árvores de trabalho ligadas a um repositório.
 
 ```bash
-Exemplo: git worktree add ../nova-diretoria branch cria uma nova worktree.
-
+Exemplo: `git worktree add ../nova-diretoria branch` cria uma nova worktree.
 ```
 
-## Outros Comandos Úteis
+## 🛠️ Outros Comandos Úteis
 
 ### 🔹 git ls-tree
 
 Lista o conteúdo de uma árvore de commits.
 
 ```bash
-Exemplo: git ls-tree HEAD mostra a árvore do HEAD.
-
+Exemplo: `git ls-tree HEAD` mostra a árvore do HEAD.
 ```
 
 ### 🔹 git mv
@@ -394,8 +365,7 @@ Exemplo: git ls-tree HEAD mostra a árvore do HEAD.
 Move ou renomeia um arquivo, diretório, ou link simbólico.
 
 ```bash
-Exemplo: git mv arquivo_antigo.txt arquivo_novo.txt.
-
+Exemplo: `git mv arquivo_antigo.txt arquivo_novo.txt`.
 ```
 
 ### 🔹 git gc
@@ -403,8 +373,7 @@ Exemplo: git mv arquivo_antigo.txt arquivo_novo.txt.
 Limpa arquivos desnecessários e otimiza o repositório local.
 
 ```bash
-Exemplo: git gc para otimizar o repositório.
-
+Exemplo: `git gc` para otimizar o repositório.
 ```
 
 ### 🔹 git fsck
@@ -412,8 +381,7 @@ Exemplo: git gc para otimizar o repositório.
 Verifica a integridade do sistema de arquivos Git.
 
 ```bash
-Exemplo: git fsck para verificar erros.
-
+Exemplo: `git fsck` para verificar erros.
 ```
 
 ### 🔹 git filter-branch
@@ -421,19 +389,18 @@ Exemplo: git fsck para verificar erros.
 Reescreve branches.
 
 ```bash
-Exemplo: git filter-branch --tree-filter 'rm -f senha.txt' HEAD remove um arquivo de todo o histórico.
-
+Exemplo: `git filter-branch --tree-filter 'rm -f senha.txt' HEAD` remove um arquivo de todo o histórico.
 ```
 
-## Informações e Ajuda
+## ℹ️ Informações e Ajuda
 
 ### 🔹 git help
 
 Mostra a ajuda para os comandos Git.
+```
 
 ```bash
-Exemplo: git help commit mostra a ajuda do comando commit.
-
+Exemplo: `git help commit` mostra a ajuda do comando commit.
 ```
 
 ### 🔹 git version
@@ -441,41 +408,37 @@ Exemplo: git help commit mostra a ajuda do comando commit.
 Mostra a versão do Git instalada.
 
 ```bash
-Exemplo: git version para ver a versão atual.
-
+Exemplo: `git version` para ver a versão atual.
 ```
 
-## Git Ignore
+## ❌ Git Ignore
 
 ### 🔹 .gitignore
 
 Especifica arquivos intencionalmente não rastreados para ignorar.
 
 ```bash
-Exemplo: Adicionar *.log no .gitignore para ignorar arquivos de log.
-
+Exemplo: Adicionar `*.log` no .gitignore para ignorar arquivos de log.
 ```
 
-## Git Attributes
+## 📝 Git Attributes
 
 ### 🔹 .gitattributes
 
 Permite definir atributos de caminhos específicos.
 
 ```bash
-Exemplo: Adicionar *.txt linguist-detectable=true no .gitattributes.
-
+Exemplo: Adicionar `*.txt linguist-detectable=true` no .gitattributes.
 ```
 
-## Gerenciamento de LFS (Large File Storage)
+## 🗃️ Gerenciamento de LFS (Large File Storage)
 
 ### 🔹 git lfs track
 
 Rastreia arquivos grandes com Git LFS.
 
 ```bash
-Exemplo: git lfs track "*.psd" para rastrear arquivos Photoshop.
-
+Exemplo: `git lfs track "*.psd"` para rastrear arquivos Photoshop.
 ```
 
 ### 🔹 git lfs ls-files
@@ -483,38 +446,35 @@ Exemplo: git lfs track "*.psd" para rastrear arquivos Photoshop.
 Lista todos os arquivos rastreados pelo Git LFS.
 
 ```bash
-Exemplo: git lfs ls-files para ver arquivos LFS.
-
+Exemplo: `git lfs ls-files` para ver arquivos LFS.
 ```
 
-## Performance
+## 🚀 Performance
 
 ### 🔹 git count-objects
 
 Mostra informações sobre objetos do banco de dados Git.
 
 ```bash
-Exemplo: git count-objects para ver estatísticas do repositório.
-
+Exemplo: `git count-objects` para ver estatísticas do repositório.
 ```
 
-## Networking
+## 🌐 Networking
 
 ### 🔹 git daemon
 
 Permite que o Git seja servido como um daemon para protocolos sem estado.
 
 ```bash
-Exemplo: git daemon --reuseaddr --base-path=/path/to/repo --export-all --verbose para servir um repositório.
-
+Exemplo: `git daemon --reuseaddr --base-path=/path/to/repo --export-all --verbose` para servir um repositório.
 ```
 
-## Subtree
+## 🌳 Subtree
 
 ### 🔹 git subtree
 
 Ferramenta para subprojetos, permite repositórios dentro de outro.
 
 ```bash
-Exemplo: git subtree add --prefix=subprojeto subprojeto_repo master --squash adiciona um subprojeto.
+Exemplo: `git subtree add --prefix=subprojeto subprojeto_repo master --squash` adiciona um subprojeto.
 ```
