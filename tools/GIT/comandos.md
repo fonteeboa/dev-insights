@@ -1,4 +1,4 @@
-# 🪢 Git
+# 💡📖 Comandos Essenciais do Git: Seu Guia Rápido para um Controle de Versão Eficiente
 
 O Git é essencial para o desenvolvimento de software, permitindo o controle de versões, colaboração eficaz entre desenvolvedores e o gerenciamento seguro de mudanças no código. Facilita o rastreamento de alterações, a reversão a versões anteriores e a integração de trabalho de diferentes membros da equipe, tornando o processo de desenvolvimento mais organizado e eficiente.
 
@@ -397,7 +397,6 @@ Exemplo: `git filter-branch --tree-filter 'rm -f senha.txt' HEAD` remove um arqu
 ### 🔹 git help
 
 Mostra a ajuda para os comandos Git.
-```
 
 ```bash
 Exemplo: `git help commit` mostra a ajuda do comando commit.
