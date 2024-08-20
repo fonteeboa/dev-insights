@@ -42,6 +42,7 @@ Além de fornecer informações, o objeto `navigator` também permite interagir 
 - 🔹**navigator.credentials.store()**: `Armazene com segurança as credenciais do usuário diretamente no navegador.`
 - 🔹**navigator.storage.persist()**: `Garanta armazenamento persistente para os dados do seu site com este método útil.`
 - 🔹**navigator.storage.estimate()**: `Obtenha uma estimativa do espaço de armazenamento disponível para gerenciar melhor os recursos.`
+- 🔹**navigator.vibrate(pattern)**: `Acione a vibração do dispositivo com um padrão específico.`
 
 ## Conclusão
 
