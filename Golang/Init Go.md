@@ -1,5 +1,5 @@
 
-# 🚀 Guia do Golang
+# 🦫🚀 Guia do Golang
 
 Bem-vindo ao nosso guia para começar com Go (Golang)! 🌟 Neste artigo, vamos explorar como essa poderosa linguagem de programação, desenvolvida pelo Google, pode te ajudar a construir aplicações eficientes e de alto desempenho. Vamos cobrir o essencial sobre como instalar o Go, configurar seu ambiente de desenvolvimento, criar seu primeiro projeto e também como otimizar seus builds para diferentes plataformas.
 
