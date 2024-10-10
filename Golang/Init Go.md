@@ -33,7 +33,7 @@ Se a instalação foi bem-sucedida, você verá a versão do Go instalada.
 
 A estrutura básica de um projeto em Go envolve pacotes. Cada pacote é armazenado em um diretório com o mesmo nome do pacote. Veja como iniciar um projeto simples.
 
-### 📂 Estrutura Básica do Projeto:
+### 📂 Estrutura Básica do Projeto
 
 1. **Crie um diretório para o projeto**: Por exemplo, crie uma pasta chamada `meu-projeto`.
 2. **Crie um arquivo principal**: Dentro desse diretório, crie um arquivo chamado `main.go`. Este arquivo é o ponto de entrada padrão para programas em Go.
@@ -105,7 +105,7 @@ Neste exemplo, estamos compilando o projeto para um sistema Linux com arquitetur
     - `arm`: Para dispositivos ARM
     - `arm64`: Para dispositivos ARM de 64 bits
 
-### Exemplos de Comandos de Build para Plataformas Diferentes:
+### Exemplos de Comandos de Build para Plataformas Diferentes
 
 - **Para Linux**:
 
