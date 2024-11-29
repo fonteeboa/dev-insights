@@ -85,7 +85,7 @@ Para potencializar uma resposta mais eficaz, podemos adicionar mais itens à est
 [ES-CUIDADOS]: Peça orientações sobre boas práticas e erros comuns, com a resposta em espanhol.
 [PT-BOAS-PRÁTICAS]: Solicite informações sobre boas práticas e recomendações, com a resposta em português.
 
-## 📌 Exemplo Prompt Simples (Sem Potencializadores)
+### 📌 Exemplo Prompt Simples (Sem Potencializadores)
 
 ```plaintext
 Explique sobre segurança em APIs REST.
@@ -96,7 +96,7 @@ Resultado:
 ![promptpt1](./img/promptSemPotencializadoria.png)
 ![promptpt2](./img/promptSemPotencializadoria%20pt2.png)
 
-## 🌟 Exemplo Prompt Avançado (Com Potencializadores)
+### 🌟 Exemplo Prompt Avançado (Com Potencializadores)
 
 ```plaintext
 [PT] Explique sobre segurança em APIs REST.
@@ -113,3 +113,7 @@ Resultado:
 ![promptpt1](./img/promptComPotencializadoria.png)
 ![promptpt1](./img/promptComPotencializadoria%20pt2.png)
 ![promptpt1](./img/promptComPotencializadoria%20pt3.png)
+
+## ⚠️ Disclaimer
+
+Embora as melhorias nos prompts aprimorem a qualidade das respostas, toda informação gerada pela IA deve ser avaliada criticamente e validada para garantir precisão. Sempre revise, teste e confirme as informações antes de aplicá-las.
