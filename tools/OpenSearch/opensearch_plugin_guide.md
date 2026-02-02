@@ -35,10 +35,6 @@ Crie um plugin quando você precisar:
 - **Criar componentes reutilizáveis** em múltiplos dashboards
 - **Implementar processamento ou análise de dados especializados**
 
-### Sobre Este Guia
-
-Para mais insights e explorar meus outros repositórios ou acessar este post em inglês, não deixe de visitar meu perfil no GitHub em **[meu GitHub](https://github.com/yourusername)**.
-
 ---
 
 ## Pré-requisitos
